@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #1f3041;
+}
+
+h1.title {
+    text-align: center;
+    font-size: 48px;
+    margin: 2rem 0 .6rem 0;
+    color:aliceblue;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.status {
+    text-align: center;
+}
+
+.live {
+    font-size: 25px;
+    color: #fff;
+}
+
+.test{
+    width: 0;
+    height: 0;
+}
+
+.status svg {
+    width: 30px;
+    vertical-align: sub;
+    margin-left: 5px;
+}
+
+.message {
+    margin-top: 14px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.howtoplay {
+    margin-top:7px;
+    font-size: 15px;
+    color: #ddd;
+}
+
+#my-cat {
+    height: 28px;
+}
+
+button.iBtn {
+    margin-top: 1rem;
+    background: #18a7db;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    width: 180px;
+    height: 42px;
+}
+
+.wrapper {
+    margin: 30px auto;
+    width: 320px;
+    height: 320px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.button {
+    padding: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
